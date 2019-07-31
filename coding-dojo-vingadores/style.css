@@ -1,0 +1,34 @@
+h1, p{
+    text-align: center;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+p{
+    font-size: 30px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.banner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.imagem{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.manopla{
+    margin-right: 300px;
+    margin-left: 300px;
+}
