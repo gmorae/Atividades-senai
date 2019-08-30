@@ -1,0 +1,25 @@
+.pai {
+    width: 1366px;
+    height: 1500px;
+    background: lightblue;
+    position: relative;
+}
+
+.filho {
+    width: 800px;
+    height: 500px;
+    background: yellow;
+    position: relative;
+    top: 100px;
+}
+
+.botao {
+    width: 350px;
+    border: solid 1px #fff;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+    left: 548px;
+}

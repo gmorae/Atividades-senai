@@ -1,0 +1,46 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background: #f4e3b2;
+        width: 1366px;
+        height: 300px;
+        margin: 0 auto;
+    }
+    
+    nav {
+        text-align: center;
+        padding: 30px;
+        background: #efc88b;
+    }
+    
+    a {
+        margin-right: 20px
+    }
+    
+    h1,
+    h2 {
+        text-align: center;
+        padding: 10px
+    }
+    
+    p {
+        text-align: center;
+        padding: 5px
+    }
+    
+    main {
+        width: 1366px;
+        height: 600px;
+        background-color: #fe5f55;
+        margin: 0 auto;
+    }
+    
+    footer {
+        background: #d3d5d7;
+        width: 1366px;
+        height: 30px;
+        margin: 0 auto;
+    }

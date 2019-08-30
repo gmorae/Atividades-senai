@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 1550px;
+}
+
+main {
+    width: 1124px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+
+p {
+    font-family: Verdana;
+    padding: 20px;
+    text-align: justify;
+    line-height: 2em;
+    color: grey
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 20px;
+    color: grey
+}
+
+hr {
+    color: grey
+}
+
+footer {
+    background: #ffffff;
+    width: 1366px;
+    height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px
+}

@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.topo {
+    /*Define a largura*/
+    width: 100%;
+    /*Define o comprimento*/
+    height: 100px;
+    /*Define a cor do fundo do elemento*/
+    background: red;
+}
+
+.menu {
+    /*Define a largura*/
+    width: 1366px;
+    /*Define o comprimento*/
+    height: 100px;
+    /*Deixa a margem automatica*/
+    margin: auto;
+}
+
+.menu ul {
+    /*Deixar todos os elementos em linha*/
+    display: flex;
+    /*Alinhamento dos elementos no centro da linha*/
+    align-items: center;
+    /*Justificar todos os elemento no final da linha por isso flex-end*/
+    justify-content: flex-end;
+    /*Definição do comprimento*/
+    height: 100px;
+    /*Tirar a bolinha da lista*/
+    list-style-type: none;
+}
+
+.menu a {
+    /*Deixar a cor da letra branca*/
+    color: #ffffff;
+    /*Alinha dentro do elemento 50px de altura e 30px de lasrgura*/
+    padding: 50px 30px;
+    /*Tirar o sublinhado dos links*/
+    text-decoration: none;
+    /*Aumentar as fontes*/
+    font-size: 20px;
+    /*Deixar todas as letras maiusculas*/
+    text-transform: uppercase
+}
+
+.menu a:hover {
+    /*hover serve para quando passar encima mudar algo*/
+    /*Aqui quando o mouse passar encima dos links 
+    ele vai mudar de cor e a letra vai aumentar*/
+    /*Mudar a cor do fundo*/
+    background: #860000;
+}
+
+.slide img {
+    width: 100%;
+}
+
+.conteudo {
+    width: 100%;
+    height: 700px;
+}
+
+.loja {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.loja h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+
+.loja p {
+    color: #333;
+    font-size: 20px;
+}
+
+.categoria {
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.caixa {
+    width: 25%;
+}
+
+.caixa h2 {
+    color: red;
+    margin-bottom: 10px
+}
+
+.caixa ul {
+    margin-left: 20px;
+}
+
+.caixa li {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.galeria {
+    width: 100%;
+    display: flex;
+    justify-content: space-around
+}
+
+.galeria img {
+    width: 20%;
+}
+
+.footer {
+    background: red;
+    color: white;
+    padding: 20px;
+    text-align: center
+}
